@@ -1,4 +1,6 @@
 package test.GUIPageTese;
+import java.util.List;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -58,7 +60,33 @@ public class GUIPageTest extends BaseTest {
 		GuiPage.SelectContry("india");
 	}
 	
+	@Test
+	public void shouldSelectAllColors() {
+		GuiPage.SelectColors();
+	}	
 	
+	@Test 
+	 public void shouldSelectSpecificColors() {
+	 GuiPage.SelectSpecificColor("Green"); 
+	 }
+	 
+	@Test
+	 public void validatingSortOrder() {
+		 List<List<String>> ANimalNames = GuiPage.CheckAnimalsinSortOrder();
+		 List<String> ActualAnimalName =ANimalNames.get(0);
+		 List<String> SortedAnimalName =ANimalNames.get(1);
+		 Assert.assertEquals(ActualAnimalName, SortedAnimalName);
+		 
+	 }
 	
+	@Test
+	public void shouldSelectDatefromDatepicker1() {
+		Assert.assertTrue(
+			    GuiPage.SelectDate1("june", 23),
+			    "Failed to select date from datepicker"
+			);
+
+	}
+	 	
 	
 }

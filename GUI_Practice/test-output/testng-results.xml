@@ -1,141 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="11" total="12" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-25T12:19:37 IST" name="GUI Practice" finished-at="2026-01-25T12:20:11 IST" duration-ms="33945">
+  <suite started-at="2026-01-28T13:07:32 IST" name="Default suite" finished-at="2026-01-28T13:07:38 IST" duration-ms="6444">
     <groups>
     </groups>
-    <test started-at="2026-01-25T12:19:37 IST" name="E2E" finished-at="2026-01-25T12:20:11 IST" duration-ms="33945">
+    <test started-at="2026-01-28T13:07:32 IST" name="Default test" finished-at="2026-01-28T13:07:38 IST" duration-ms="6444">
       <class name="test.GUIPageTese.GUIPageTest">
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:37 IST" name="launchWebsite" finished-at="2026-01-25T12:19:42 IST" duration-ms="5315" status="PASS">
+        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:test.GUIPageTese.GUIPageTest@618b19ad]" started-at="2026-01-28T13:07:32 IST" name="launchWebsite" finished-at="2026-01-28T13:07:37 IST" duration-ms="5395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchWebsite -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:42 IST" name="SetUp" finished-at="2026-01-25T12:19:42 IST" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:test.GUIPageTese.GUIPageTest@618b19ad]" started-at="2026-01-28T13:07:37 IST" name="SetUp" finished-at="2026-01-28T13:07:37 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="ShouldSelectAlltheDays()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:42 IST" name="ShouldSelectAlltheDays" finished-at="2026-01-25T12:19:43 IST" duration-ms="514" status="PASS">
+        <test-method signature="shouldSelectDatefromDatepicker1()[pri:0, instance:test.GUIPageTese.GUIPageTest@618b19ad]" started-at="2026-01-28T13:07:37 IST" name="shouldSelectDatefromDatepicker1" finished-at="2026-01-28T13:07:38 IST" duration-ms="773" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ShouldSelectAlltheDays -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:43 IST" name="tearDown" finished-at="2026-01-25T12:19:43 IST" duration-ms="202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:43 IST" name="launchWebsite" finished-at="2026-01-25T12:19:47 IST" duration-ms="4595" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchWebsite -->
-        <test-method signature="ShouldSelectContryWithoutAnyissues()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:47 IST" name="ShouldSelectContryWithoutAnyissues" finished-at="2026-01-25T12:19:47 IST" duration-ms="117" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShouldSelectContryWithoutAnyissues -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:47 IST" name="SetUp" finished-at="2026-01-25T12:19:47 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:47 IST" name="tearDown" finished-at="2026-01-25T12:19:48 IST" duration-ms="167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:48 IST" name="launchWebsite" finished-at="2026-01-25T12:19:51 IST" duration-ms="3556" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchWebsite -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:51 IST" name="SetUp" finished-at="2026-01-25T12:19:51 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="ShouldSelectSpecificDay()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:51 IST" name="ShouldSelectSpecificDay" finished-at="2026-01-25T12:19:51 IST" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShouldSelectSpecificDay -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:51 IST" name="tearDown" finished-at="2026-01-25T12:19:52 IST" duration-ms="172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:52 IST" name="launchWebsite" finished-at="2026-01-25T12:19:55 IST" duration-ms="3490" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchWebsite -->
-        <test-method signature="shouldAddUserNameWithoutAnyIssues()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:55 IST" name="shouldAddUserNameWithoutAnyIssues" finished-at="2026-01-25T12:19:55 IST" duration-ms="85" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldAddUserNameWithoutAnyIssues -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:55 IST" name="SetUp" finished-at="2026-01-25T12:19:55 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:55 IST" name="tearDown" finished-at="2026-01-25T12:19:55 IST" duration-ms="183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:55 IST" name="launchWebsite" finished-at="2026-01-25T12:19:59 IST" duration-ms="3532" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchWebsite -->
-        <test-method signature="shouldOpenRightWebsite()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:59 IST" name="shouldOpenRightWebsite" finished-at="2026-01-25T12:19:59 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldOpenRightWebsite -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:59 IST" name="SetUp" finished-at="2026-01-25T12:19:59 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:59 IST" name="tearDown" finished-at="2026-01-25T12:19:59 IST" duration-ms="159" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:19:59 IST" name="launchWebsite" finished-at="2026-01-25T12:20:03 IST" duration-ms="3917" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchWebsite -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:20:03 IST" name="SetUp" finished-at="2026-01-25T12:20:03 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="shouldSelectFemaleGender()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:20:03 IST" name="shouldSelectFemaleGender" finished-at="2026-01-25T12:20:03 IST" duration-ms="76" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldSelectFemaleGender -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:20:03 IST" name="tearDown" finished-at="2026-01-25T12:20:03 IST" duration-ms="173" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:20:03 IST" name="launchWebsite" finished-at="2026-01-25T12:20:07 IST" duration-ms="3491" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchWebsite -->
-        <test-method signature="shouldSelectMaleGender()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:20:07 IST" name="shouldSelectMaleGender" finished-at="2026-01-25T12:20:07 IST" duration-ms="81" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldSelectMaleGender -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:20:07 IST" name="SetUp" finished-at="2026-01-25T12:20:07 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:20:07 IST" name="tearDown" finished-at="2026-01-25T12:20:07 IST" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchWebsite()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:20:07 IST" name="launchWebsite" finished-at="2026-01-25T12:20:10 IST" duration-ms="3512" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchWebsite -->
-        <test-method signature="shouldmatchPageTitle()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:20:10 IST" name="shouldmatchPageTitle" finished-at="2026-01-25T12:20:10 IST" duration-ms="31" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldmatchPageTitle -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:20:10 IST" name="SetUp" finished-at="2026-01-25T12:20:10 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GUIPageTese.GUIPageTest@397fbdb]" started-at="2026-01-25T12:20:10 IST" name="tearDown" finished-at="2026-01-25T12:20:11 IST" duration-ms="167" status="PASS">
+        </test-method> <!-- shouldSelectDatefromDatepicker1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GUIPageTese.GUIPageTest@618b19ad]" started-at="2026-01-28T13:07:38 IST" name="tearDown" finished-at="2026-01-28T13:07:38 IST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.GUIPageTese.GUIPageTest -->
-    </test> <!-- E2E -->
-  </suite> <!-- GUI Practice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
